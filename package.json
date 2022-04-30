@@ -1,0 +1,28 @@
+{
+  "name": "client-mgmt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duttasumit/client-mgmt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duttasumit/client-mgmt/issues"
+  },
+  "homepage": "https://github.com/duttasumit/client-mgmt#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.3.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
